@@ -44,9 +44,7 @@ class _PriceScreenState extends State<PriceScreen> {
     return CupertinoPicker(
       backgroundColor: Colors.lightBlue,
       itemExtent: 32.0,
-      onSelectedItemChanged: (selectedIndex) {
-        print(selectedIndex);
-      },
+      onSelectedItemChanged: (selectedIndex) {},
       children: pickerItems,
     );
   }
